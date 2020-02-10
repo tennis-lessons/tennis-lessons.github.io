@@ -309,7 +309,7 @@ ul#menu-main > li > a:focus {
 
 /* --- Header slider --- */
 #header-wrapper.header-slider {
-	background: #444 url(./img/tennis-bg.png) no-repeat center center;
+	background: #444 url(../img/tennis-bg.PNG) no-repeat center center;
 	background-size:30px 10px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
