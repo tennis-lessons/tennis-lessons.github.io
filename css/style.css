@@ -585,23 +585,52 @@ video{
 	margin-bottom:20px;
 }
 
+
 #why .reason{
 	margin: auto;
-	width: 700px;
-	text-align: left;
 	font-weight: 400;
 }
 #why .reason .subreason{
 	margin: auto;
-	width: 600px;
-	text-align: left;
 	font-weight: 400;
+}
+
+ 
+ #why .reason ul {
+    width: 60%;
+    margin: auto;
+	list-style: none;
+}
+
+ #why .subreason ul {
+    width: 90%;
+    margin: auto;
+	list-style: none;
 }
 
 .resize{
 	width:700px;
 	height:auto;
 }
+
+/* === section about === */
+
+#about {
+	padding:40px;
+}
+
+
+#about h4 {
+	margin-bottom:20px;
+}
+
+.reasonabout{
+	margin: auto;
+	width:90%;
+	font-size:17px;
+	font-weight: 400;
+}
+
 
 
 /* === section Price === */
@@ -724,7 +753,7 @@ section#testimonial {
 }
 
 .insertpad-large{
-	padding-top:100px;
+	padding-top:50px;
 }
 
 /* === Contact section === */
@@ -1127,6 +1156,12 @@ i.icon-white {
 	  margin-right:auto;
 	  width: 50%;
 	}
+	
+	#why .reason ul {
+    width: 90%;
+    margin: auto;
+	list-style: none;
+}
 
 }
 
@@ -1188,6 +1223,13 @@ i.icon-white {
 	width:50px;
 	height:30px;
 	}
+	
+	 #why .reason ul {
+    width: 100%;
+    margin: auto;
+	list-style: none;
+}
+
 
 }
     
@@ -1227,6 +1269,11 @@ i.icon-white {
 	width:50px;
 	height:30px;
 	}
+	 #why .reason ul {
+    width: 100%;
+    margin: auto;
+	list-style: none;
+}
 
 
 }
@@ -1276,5 +1323,11 @@ i.icon-white {
 	width:50px;
 	height:30px;
 	}
+	 #why .reason ul {
+    width: 100%;
+    margin: auto;
+	list-style: none;
+}
+
 
 }
