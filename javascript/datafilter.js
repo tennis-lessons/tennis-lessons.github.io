@@ -52,3 +52,15 @@ function showSlides(n) {
   //captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
+document.onkeydown = function checkKey(e){
+	e = e || window.event;
+    if (e.keyCode == '37') {
+       plusSlides(-1);
+    }
+    else if (e.keyCode == '39') {
+       plusSlides(1);
+    }
+
+
+}
+
